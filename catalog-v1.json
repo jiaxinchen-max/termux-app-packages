@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T15:36:05Z",
+  "generatedAt": "2026-09-13T00:16:00Z",
   "packages": [
     {"id":"box64-binaries","category":"runtime","version":10,"url":"https://gitlab.com/api/v4/projects/54240888/repository/files/box64-binaries.tar.xz/raw?ref=main","size":22582612,"sha256":"0cd90bbedd0a166e8800ab0cb6d1ece0f9a8346f8603cef608f7bdae85f905d6"},
+    {"id":"box64-proot-v0.4.4","category":"runtime","version":1,"url":"https://github.com/jiaxinchen-max/termux-box-packages/releases/download/box64-proot-v0.4.4-v1/box64-proot-v0.4.4.tar.xz","size":10639328,"sha256":"bef12ae640dde59f1c34c145a55e2ca11c29b273c24429cc7ed6ca654a288bf0"},
     {"id":"dxvk","category":"runtime","version":2,"url":"https://gitlab.com/api/v4/projects/54240888/repository/files/dxvk.tar.xz/raw?ref=main","size":21541060,"sha256":"317ef13acdd7cec7af7af22f0772b4dcff919f9c8fd00402766d4625f5dfb080"},
     {"id":"glibc-prefix","category":"runtime","version":2,"url":"https://gitlab.com/api/v4/projects/54240888/repository/files/glibc-prefix.tar.xz/raw?ref=main","size":56383776,"sha256":"4c7edae8a58e6cd3f67e1ed6244c7a2eacb78978f2fa2d199d6314a15f22a902"},
     {"id":"prefix-apps","category":"runtime","version":2,"url":"https://gitlab.com/api/v4/projects/54240888/repository/files/prefix-apps.tar.xz/raw?ref=main","size":101877952,"sha256":"ac6f4ec638f27365a0fa03d305abc867b78f8599756b65de9e4ffa3716ed3b50"},
