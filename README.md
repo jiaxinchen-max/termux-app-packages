@@ -1,24 +1,25 @@
-# Termux Box Package Repository
+# Termux App Packages
 
-This directory contains the source catalog and migration tooling for the
-standalone `jiaxinchen-max/termux-box-packages` repository.
+Versioned runtime components for [Termux App](https://github.com/jiaxinchen-max/termux-app).
+This repository was renamed from `termux-box-packages`; existing releases and assets retain their names and contents.
 
-Package archives are GitHub Release assets and are not committed to Git.
-The generated `repository/index-v1.json` file is committed to the package
-repository and consumed by Termux Box.
+- `catalog-v1.json`: current component catalog, synchronized with the App's bundled index.
+- `repository/index-v1.json`: published catalog with explicit download URLs, sizes, and SHA-256 values.
+- `repository/gnome-usb-20261030-r1.json`: pinned GNOME, Mutter, USB bridge, and GIO asset manifest.
+- `legacy-termux-app-*` releases: historical runtime components copied from App releases. These are archival assets and are not automatically selected by the current catalog.
 
-## Publish
+KWin, Xserver, and third-party upstream releases continue to use their dedicated repositories.
+The App repository publishes APKs; runtime assets are maintained here.
 
-Requirements: `curl`, `git`, `gh`, `jq`, `sha256sum`, and `tar`.
+The manually dispatched **Verify and publish package catalog** workflow downloads every declared payload, verifies its size and SHA-256, and publishes the catalog without synthesizing or substituting URLs.
+
+To copy historical runtime assets from another release repository, use explicit source and target arguments:
 
 ```sh
-gh auth login -h github.com
-./distribution/termux-box-packages/migrate-mobox-packages.sh
+python3 tools/migrate-app-release-assets.py \
+  --source jiaxinchen-max/termux-app \
+  --target jiaxinchen-max/termux-app-packages \
+  --work-dir /tmp/termux-package-migration
 ```
 
-The script is idempotent. Existing releases are downloaded and verified
-instead of being overwritten.
-
-The repository also includes a manually dispatched GitHub Actions workflow.
-It performs the migration on a GitHub runner and avoids routing all package
-data through the developer workstation.
+The migration tool verifies all uploaded SHA-256 values and retains source assets.

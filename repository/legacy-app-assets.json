@@ -1,0 +1,92 @@
+[
+  {
+    "sourceTag": "1.0.8",
+    "targetTag": "legacy-termux-app-1.0.8",
+    "assets": [
+      {
+        "name": "box64-android-glibc-v11.tar.xz",
+        "size": 6567740,
+        "sha256": "5dab434098da1e87da2e2883b909b16b87f3329e491bd805325b6d65cbd85222",
+        "sourceAssetId": 551760867
+      },
+      {
+        "name": "box64-android-mprotect-patch-v11.tar.xz",
+        "size": 3207116,
+        "sha256": "723c27a890d355d9ce3ab890a7ba4fe83f2a80e3a5f745f84065013867073405",
+        "sourceAssetId": 635862496
+      },
+      {
+        "name": "box64-android_0.4.5+20260908T103809.4e5f180-1_arm64.deb",
+        "size": 7136296,
+        "sha256": "745cd5efc55d3f24d11ac2d9b958a03482b03f4df9d52764c1b6784435fc4e8e",
+        "sourceAssetId": 551737702
+      },
+      {
+        "name": "box64-generic-arm_0.4.5+20260908T103425.4e5f180-1_arm64.deb",
+        "size": 7122192,
+        "sha256": "fd7e172804e8881bf22ebb38593a66328eeb05931ac7db4ab0e3e3f9332f83a9",
+        "sourceAssetId": 550511322
+      },
+      {
+        "name": "fex-emu-armv8.4_2609-1.n_arm64.deb",
+        "size": 3281500,
+        "sha256": "c7cb0a45c4b144f96f0cbf0c586409f6d1ba1fe2dc2c76e19587a69f3864a4b1",
+        "sourceAssetId": 550505631
+      },
+      {
+        "name": "kwin_6.6.0_aarch64.deb",
+        "size": 8792328,
+        "sha256": "4cc5a48e5ae7bc789a9edf03d06307512b679c0f18acaa32cd6a3431438876ab",
+        "sourceAssetId": 439244246
+      },
+      {
+        "name": "termux-display-client_0.1.0-1_aarch64.deb",
+        "size": 3521900,
+        "sha256": "e251e27fb43fb0a84c3d085e0624eee7d415aa19587881315a261984c8c143bd",
+        "sourceAssetId": 439244414
+      },
+      {
+        "name": "wlroots_0.18.2-1_aarch64.deb",
+        "size": 305428,
+        "sha256": "91fee3ec82eca1b982e36c182e131cba4a2bc6365967ac7a5d91da362386c4af",
+        "sourceAssetId": 439244449
+      },
+      {
+        "name": "xorg-server_21.1.16-3_aarch64.deb",
+        "size": 1297100,
+        "sha256": "23c8df0888e2bfddc8cda2889b3abf19bb907adbe3ccddf473bc87f5d6afe78d",
+        "sourceAssetId": 439244457
+      }
+    ]
+  },
+  {
+    "sourceTag": "v1.0.4",
+    "targetTag": "legacy-termux-app-v1.0.4",
+    "assets": [
+      {
+        "name": "gamepad_deiver_wine-9.16.zip",
+        "size": 269701,
+        "sha256": "f38b7546b22ee61bf8350b734a4f1a49285a4bb370ff417517a46d7c8c407a7e",
+        "sourceAssetId": 195825130
+      },
+      {
+        "name": "default.txt",
+        "size": 1682,
+        "sha256": "26e8fa55caef2af16ea0c388cf034ea02adbf964c63a4d86ea23386f1027da88",
+        "sourceAssetId": 197382858
+      }
+    ]
+  },
+  {
+    "sourceTag": "v1.0.0",
+    "targetTag": "legacy-termux-app-v1.0.0",
+    "assets": [
+      {
+        "name": "termux-display-nightly-1-0-all.deb",
+        "size": 4872,
+        "sha256": "ce64654fb3707f58dc842e2f68f9f996366f29be52d1a7afcbedada2cc23c1f2",
+        "sourceAssetId": 160439284
+      }
+    ]
+  }
+]

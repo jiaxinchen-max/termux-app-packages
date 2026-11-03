@@ -1,0 +1,15 @@
+{
+  "reason": "Unused public environment backups; deletion explicitly requested by owner on 2026-11-03.",
+  "assets": [
+    {
+      "sourceTag": "v1.0.4",
+      "name": "termux-backup.tar.1.gz",
+      "size": 1125899282
+    },
+    {
+      "sourceTag": "v1.0.0",
+      "name": "termux-backup.tar.gz",
+      "size": 386172595
+    }
+  ]
+}

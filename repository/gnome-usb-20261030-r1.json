@@ -1,0 +1,101 @@
+{
+  "release": "gnome-usb-20261030-r1",
+  "assets": [
+    {
+      "name": "accountsservice_23.13.9_aarch64.deb",
+      "sha256": "4d1dfa7ae196beba68378d04913a0ab2eb09b105b4e305da27bd97a355fe1f4e",
+      "size": 53996,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/accountsservice_23.13.9_aarch64.deb"
+    },
+    {
+      "name": "gexiv2_0.14.7_aarch64.deb",
+      "sha256": "2eea495d80f59b7285f8225df2526cd8a7c06ce03f9abd1ca2d65b9427772221",
+      "size": 90252,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/gexiv2_0.14.7_aarch64.deb"
+    },
+    {
+      "name": "gjs_1.82.3_aarch64.deb",
+      "sha256": "6eedb4cb279672a535f473012a0864d12bd1bf1895ad290ae3028b924fa93a66",
+      "size": 284928,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/gjs_1.82.3_aarch64.deb"
+    },
+    {
+      "name": "gnome-autoar_0.4.5_aarch64.deb",
+      "sha256": "3d98ef33d6e48a21af97bc1d03440303106172969ae5fd67bd77ded9348b03f6",
+      "size": 27436,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/gnome-autoar_0.4.5_aarch64.deb"
+    },
+    {
+      "name": "gnome-session_48.0_aarch64.deb",
+      "sha256": "8fd68bd0c9a720e734d7058730e9563c6411147ce17f76d5d61dee34e031bda7",
+      "size": 93200,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/gnome-session_48.0_aarch64.deb"
+    },
+    {
+      "name": "gnome-settings-daemon-schemas_48.1_all.deb",
+      "sha256": "03ed7b7a1f8d184353906f511e66bbf767f32622fb26c280ea896cb3789f9215",
+      "size": 9092,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/gnome-settings-daemon-schemas_48.1_all.deb"
+    },
+    {
+      "name": "gnome-shell_48.7-1_aarch64.deb",
+      "sha256": "285cdb99e61c761405d154f608520cc3bfdc8b7c9ea91b3619d467c9d7f4d900",
+      "size": 880344,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/gnome-shell_48.7-1_aarch64.deb"
+    },
+    {
+      "name": "libgdm_48.0-1_aarch64.deb",
+      "sha256": "fb9d03f4665fd540af125d91784d0d284122b5ee81b53f279705eafdacb63231",
+      "size": 74204,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/libgdm_48.0-1_aarch64.deb"
+    },
+    {
+      "name": "localsearch-schemas_3.9.0_all.deb",
+      "sha256": "13a0f641887be3fb7c92034ae485a67bf9a8726a73bed04d8f6f77d3e6f1f2b6",
+      "size": 3680,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/localsearch-schemas_3.9.0_all.deb"
+    },
+    {
+      "name": "mutter_48.1-24_aarch64.deb",
+      "sha256": "c222405b73404c57799e53f32344b9db28adc8de2ba9ef98704d81950ab27349",
+      "size": 1549548,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/mutter_48.1-24_aarch64.deb"
+    },
+    {
+      "name": "nautilus_48.3-3_aarch64.deb",
+      "sha256": "ee53e9a2961294df5516ba0d7e4a3e138e57634ec4b132f37f1ea41c97d26506",
+      "size": 438064,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/nautilus_48.3-3_aarch64.deb"
+    },
+    {
+      "name": "pipewire-dbus_1.4.9_aarch64.deb",
+      "sha256": "f42dd82ff03801d5c1e14203f78c3092cfdbf0a57add3133c37331afd4b8ac8b",
+      "size": 10068,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/pipewire-dbus_1.4.9_aarch64.deb"
+    },
+    {
+      "name": "polkit_126_aarch64.deb",
+      "sha256": "1eddba206bc72c6b423557ff749416971efdec25be03fca45ad5498b33e98b67",
+      "size": 74880,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/polkit_126_aarch64.deb"
+    },
+    {
+      "name": "spidermonkey_128.10.0-3_aarch64.deb",
+      "sha256": "a4b58fbe3c64c744ca9be75dcad2aeed733811810dac109c9d405a82b0545c09",
+      "size": 11386092,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/spidermonkey_128.10.0-3_aarch64.deb"
+    },
+    {
+      "name": "termux-usb-bridge_0.4.1_aarch64.deb",
+      "sha256": "d00381ecca8285e502bcd00f3491032d25f14d499454bccbb1cb1dab3964770c",
+      "size": 696912,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/termux-usb-bridge_0.4.1_aarch64.deb"
+    },
+    {
+      "name": "termux-usb-gio-trixie-aarch64-0.4.1.tar.gz",
+      "sha256": "0238798338273d9e4d983407c6399f85a0abd0a94f7b4daa09b747833ddeaaec",
+      "size": 19036,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/termux-usb-gio-trixie-aarch64-0.4.1.tar.gz"
+    }
+  ]
+}
