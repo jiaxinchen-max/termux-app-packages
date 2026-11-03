@@ -57,7 +57,8 @@
         "sha256": "23c8df0888e2bfddc8cda2889b3abf19bb907adbe3ccddf473bc87f5d6afe78d",
         "sourceAssetId": 439244457
       }
-    ]
+    ],
+    "sourceAssetsRemoved": true
   },
   {
     "sourceTag": "v1.0.4",
@@ -75,7 +76,8 @@
         "sha256": "26e8fa55caef2af16ea0c388cf034ea02adbf964c63a4d86ea23386f1027da88",
         "sourceAssetId": 197382858
       }
-    ]
+    ],
+    "sourceAssetsRemoved": true
   },
   {
     "sourceTag": "v1.0.0",
@@ -87,6 +89,7 @@
         "sha256": "ce64654fb3707f58dc842e2f68f9f996366f29be52d1a7afcbedada2cc23c1f2",
         "sourceAssetId": 160439284
       }
-    ]
+    ],
+    "sourceAssetsRemoved": true
   }
 ]
