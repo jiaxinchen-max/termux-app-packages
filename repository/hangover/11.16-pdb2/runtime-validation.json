@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "componentId": "rootfs_hangover_11.16",
+  "version": 2,
+  "wineVersion": "11.16~trixie+idap.pdb2",
+  "runtime": {
+    "name": "rootfs_hangover_11.16.tar",
+    "bytes": 100485120,
+    "sha256": "ed206c70ca889b1bbbcedaa93d4018d315b3512a861dec551da8093f9a1807c1"
+  },
+  "validationDate": "2026-11-06",
+  "status": "ScopedDeviceTestsPassedFullAcceptancePending",
+  "passed": [
+    "Debian runtime inventory/modes/dependencies/maintainer metadata matched original",
+    "1573 PE/PDB symbol mappings",
+    "43 AArch64 ELF/dbgsym mappings",
+    "App Hangover wineboot prepare succeeded",
+    "Winfile Chinese window rendered via llvmpipe/WineD3D",
+    "i386 smoke exit 0; version.dll load/free succeeded",
+    "x86_64 smoke exit 0; version.dll load/free succeeded",
+    "Safe exit left no Wine/PRoot/audio/X11 processes"
+  ],
+  "limitations": [
+    "Integrated APK fresh network installation awaits manual APK install and validation.",
+    "Physical controller, full games, DXVK/audio hardware matrix not accepted.",
+    "Full ARM64X hybrid exports/unwind/ABI and optional ODBC loading not accepted.",
+    "Storage-layout offline backup/restore v2 remains unimplemented and is fail-closed.",
+    "Full repeated compiler build has not been established as byte reproducible.",
+    "Only Wine rebuilt; FEX/Box64/DXVK reused with manifest digests."
+  ],
+  "symbols": {
+    "name": "hangover-source-symbols.tar.gz",
+    "bytes": 316123585,
+    "sha256": "6485017fbee67bde41603aaf945d15eb84a762a53a96634c502483694a4b735c",
+    "distribution": "Separate developer artifact; not part of runtime or APK"
+  },
+  "runtimeSizeReductionBytes": 192614400,
+  "rootfsAllocatedBeforeBytes": 3563614208,
+  "rootfsAllocatedAfterInstallBytes": 2032377856,
+  "originalCandidateManifest": "candidate-manifest.json; historical static-build status retained unchanged"
+}

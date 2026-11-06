@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "state": "SymbolsVerifiedNotRuntimeTested",
+  "source_lock": {
+    "schemaVersion": 1,
+    "hangover": {
+      "url": "https://github.com/AndreRH/hangover.git",
+      "tag": "hangover-11.16",
+      "commit": "56e385b7ff490edd281b288f420677093563560b",
+      "wineCommit": "3ea3a14941b6a122b892c84141ce9662c008081e",
+      "fexCommit": "fa556167d5a64ec7adb5503c2aa15b169c292cac",
+      "box64Commit": "2f130fab1d6e1a4ee8a71dc60cfdfcc839ad192a"
+    },
+    "buildRootfs": {
+      "upstreamCommit": "373f61a386722a989c79f0c11f23fcf379b56e94",
+      "url": "https://raw.githubusercontent.com/debuerreotype/docker-debian-artifacts/373f61a386722a989c79f0c11f23fcf379b56e94/trixie/oci/blobs/rootfs.tar.gz",
+      "sha256": "a6dd1c05fbba4f9028078a11f143cbb625d2408921eb8207bfa1dd1ad301276f",
+      "bytes": 49412508,
+      "architecture": "amd64"
+    },
+    "llvmMingw": {
+      "release": "20260826",
+      "name": "llvm-mingw-20260826-ucrt-ubuntu-22.04-x86_64",
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20260826/llvm-mingw-20260826-ucrt-ubuntu-22.04-x86_64.tar.xz",
+      "sha256": "cee8d2ce3da5145ce4dc882e70d0b0719a783d53a99752c60948fc0659975a65",
+      "bytes": 83880560
+    },
+    "originalComponent": {
+      "sha256": "b5493f5903ab3c05f78bf4c03b06ac0005eb26f732437748c1592fefa45e861a",
+      "reusePolicy": "Only unchanged emulator debs and dxvk payload may be reused; record every reused member hash."
+    },
+    "sourceDateEpoch": 1787940812,
+    "crossDebug": "pdb",
+    "targetArchitectures": [
+      "arm64ec",
+      "aarch64",
+      "i386"
+    ],
+    "debianRevision": "11.16~trixie+idap.pdb2",
+    "configureWithout": [
+      "opencl",
+      "pcap"
+    ]
+  },
+  "wine_deb_sha256": "a45b81dc17054b050e7a7cb038bc7791245c6b9696fe7e151bec3b9e6bc7fc7a",
+  "elf_dbgsym_sha256": "e6d349e11d872710d097336c47cc6be139a46c70502266b31dc13e1e3a1b9082",
+  "reused": [
+    {
+      "name": "dxvk-v2.7.1.tar.gz",
+      "sha256": "36be8b5803d800abc3f707e36256c77b374a108d73c03a7e34fb42b5f71be8aa",
+      "bytes": 16475867
+    },
+    {
+      "name": "hangover-libarm64ecfex_11.16_arm64.deb",
+      "sha256": "a4a197b04f63fd340bfdfe53049be6abd196e23b4c1c528cc80536b363e19ad0",
+      "bytes": 742800
+    },
+    {
+      "name": "hangover-libwow64fex_11.16_arm64.deb",
+      "sha256": "20151edd29fbbf2dccb207fa01c816c122ed30060b28d64416bd76b9b763b9e1",
+      "bytes": 659824
+    },
+    {
+      "name": "hangover-wowbox64_11.16_arm64.deb",
+      "sha256": "ceeb3ec77eee073a2c867725d1153bc8c697bcacefb896149c9a7a45c798635a",
+      "bytes": 909264
+    }
+  ],
+  "wine_regular_file_bytes_before": 2487101896,
+  "wine_regular_file_bytes_after": 954910920,
+  "runtime_inventory_before": 3931,
+  "runtime_inventory_after": 3931,
+  "baseline_package_contract": "MatchedInventoryModesDependenciesMaintainerMetadata",
+  "pdb_files": 1573,
+  "limitations": [
+    "Loader, ABI and device runtime acceptance still required.",
+    "ELF dbgsym Build-ID mappings require a separate gate.",
+    "Ordinal-only exports use a bounded physical-view decoder; hybrid export coverage is pending.",
+    "FEX/Box64 emulator debs are reused, not rebuilt.",
+    "APT dependency versions and build logs must accompany this candidate."
+  ],
+  "artifacts": [
+    {
+      "name": "hangover-runtime-source-candidate.tar",
+      "sha256": "ed206c70ca889b1bbbcedaa93d4018d315b3512a861dec551da8093f9a1807c1",
+      "bytes": 100485120
+    },
+    {
+      "name": "hangover-source-symbols.tar.gz",
+      "sha256": "6485017fbee67bde41603aaf945d15eb84a762a53a96634c502483694a4b735c",
+      "bytes": 316123585
+    }
+  ]
+}

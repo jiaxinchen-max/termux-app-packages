@@ -23,3 +23,20 @@ python3 tools/migrate-app-release-assets.py \
 ```
 
 The migration tool verifies all uploaded SHA-256 values and retains source assets.
+
+## Source-built Hangover 11.16
+
+`rootfs_hangover_11.16-v2` publishes IDAP's source-built Wine
+`11.16~trixie+idap.pdb2` with unchanged pinned FEX/Box64/DXVK inputs.
+The 100,485,120-byte runtime tar replaces the 293,099,520-byte v1 input;
+v1 assets remain available. PE PDBs and ELF dbgsym are separate developer
+artifacts and are not downloaded by the App.
+
+Build inputs and symbol identities are recorded in
+`repository/hangover/11.16-pdb2/candidate-manifest.json`; subsequent device
+results and remaining limitations are in `runtime-validation.json` beside it.
+The original build-time status is retained unchanged. App initialization,
+Winfile rendering, 32/64-bit smoke tests and safe exit passed. Full ABI,
+physical controllers, the integrated APK fresh-download path and full
+backup/restore acceptance remain pending. Build recipes and validators live
+in the App repository under `distribution/termux-app-packages/`.
