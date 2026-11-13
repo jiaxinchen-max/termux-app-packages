@@ -47,9 +47,9 @@ def main():
     require(sha(catalog_bytes) == lock['catalog_sha256'], 'Catalog SHA-256 mismatch')
     for theme in catalog['themes'].values():
         require(theme['runtime_ids'] == ['0.57.0-r7'], 'Unsupported runtime/theme combination')
-        require(theme['source'] == 'bundled', 'Unexpected theme installation source')
+        require(theme['source'] == 'release', 'Unexpected theme installation source')
         require(theme['url'] == 'https://github.com/jiaxinchen-max/termux-app-packages/releases/download/'
-                + lock['release'] + '/' + theme['asset'], 'Unexpected theme URL')
+                + theme['release'] + '/' + theme['asset'], 'Unexpected theme URL')
     if args.assets:
         require((args.assets / 'hyprland-components.json').read_bytes() == catalog_bytes,
                 'Published catalog differs from repository')
@@ -71,7 +71,7 @@ def main():
         path = args.assets / source['asset']
         data = path.read_bytes()
         require(len(data) == source['size'] and sha(data) == source['sha256'], 'Source SHA mismatch')
-        require({n: sha(b) for n, b in members(path).items()} == lock['app_source_files_sha256'],
+        require({n: sha(b) for n, b in members(path).items()} == lock['source_overlay_files_sha256'],
                 'Source overlay file hashes differ')
         for name in ('source-lock.json', 'validation.json', 'README.md'):
             require((args.assets / name).read_bytes() == (BASE / name).read_bytes(),

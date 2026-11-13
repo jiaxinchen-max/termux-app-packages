@@ -5,7 +5,8 @@ This repository was renamed from `termux-box-packages`; existing releases and as
 
 - `catalog-v1.json`: current component catalog, synchronized with the App's bundled index.
 - `repository/index-v1.json`: published catalog with explicit download URLs, sizes, and SHA-256 values.
-- [`repository/hyprland/`](repository/hyprland/README.md): independent Hyprland compositor/theme catalog, source locks and candidate validation. r8 themes reuse the unchanged r7 native runtime.
+- [`repository/hyprland/`](repository/hyprland/README.md): independent Hyprland compositor/theme assets, verified on-demand delivery, source locks and candidate validation. r8 themes reuse the unchanged r7 native runtime.
+- [`repository/android-api/`](repository/android-api/README.md): APK-matched API companion CLI/deb assets for verified on-demand initialization; Android API host code stays in the APK.
 - `repository/gnome-usb-20261030-r1.json`: pinned GNOME, Mutter, USB bridge, and GIO asset manifest.
 - `repository/embedded-termux-api-0.60.0-r1.json`: APK-matched embedded API CLI packages, async UPower component, pinned sources and SHA-256 values. These are initialization components, not selectable Wine runtime profiles.
 - `legacy-termux-app-*` releases: historical runtime components copied from App releases. These are archival assets and are not automatically selected by the current catalog.

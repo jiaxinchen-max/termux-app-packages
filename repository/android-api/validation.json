@@ -1,0 +1,60 @@
+{
+  "apk": {
+    "MiB": 43.25034809112549,
+    "abi": "arm64-v8a",
+    "apk": "termux-app_apt-android-7-debug_arm64-v8a.apk",
+    "embedded_metadata_sha256": {
+      "local-games/desktop_hyprland_components.py": "561f5b608d1ffeb901bb2104086268f333adb3881f89ab28b4f41bb99109465f",
+      "local-games/hyprland-components.json": "43563e567862bc30f4f4811362a8a40a1de1ee7d72988d668f6e2ca60dd8e9fb",
+      "runtime-api-components.json": "29cb624f5882779654233d3eba05b13ed7b0a36584b4fca0408bdc739a2c73dd"
+    },
+    "new_compressed_payload_bytes": 44910430,
+    "no_externalized_payloads_in_apk": true,
+    "old_compressed_payload_bytes": 47969443,
+    "previous_size": 48414118,
+    "saved_bytes": 3062841,
+    "saved_percent": 6.33,
+    "sha256": "ff3b6ede8c000d7462b28ea052584b3484046d84684d102b25af8aadf70766f8",
+    "size": 45351277
+  },
+  "app_push": false,
+  "checks": {
+    "api_companion_jvm_tests": {
+      "actual_abi_archives_installed": 4,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 15
+    },
+    "api_debs_match_public_r1": "all four ABIs",
+    "apk_payload_exclusion": "verified; no themes/font/API CLI/deb/UPower payloads",
+    "apk_signature": "verified debug signature",
+    "desktop_jvm_tests": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 103
+    },
+    "python_regression_checks": 75,
+    "theme_and_api_reproducibility": "passed",
+    "theme_component_checks": 17
+  },
+  "date": "2026-11-13",
+  "deployment": false,
+  "evidence": {
+    "asset": "verification-evidence.tar.gz",
+    "sha256": "91eb505a652ec9d831374c48fb1f083e91a0be3736de40affcff741ced19e656",
+    "size": 10842
+  },
+  "historical_evidence": "Historical r8 screenshots/results are not verification of this adaptation",
+  "pending": [
+    "Android device graphics/input and native/PRoot scenarios",
+    "Physical API permission/USB/hardware acceptance",
+    "Final product knowledge consistency and user acceptance"
+  ],
+  "schema": 1,
+  "status": "candidate; real device acceptance pending",
+  "unavailable": [
+    "Harness strict-run scripts absent"
+  ]
+}
