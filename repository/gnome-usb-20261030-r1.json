@@ -56,10 +56,10 @@
       "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/localsearch-schemas_3.9.0_all.deb"
     },
     {
-      "name": "mutter_48.1-24_aarch64.deb",
-      "sha256": "c222405b73404c57799e53f32344b9db28adc8de2ba9ef98704d81950ab27349",
-      "size": 1549548,
-      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/mutter_48.1-24_aarch64.deb"
+      "name": "mutter_48.1-25_aarch64.deb",
+      "sha256": "ef6631c3a21eeb11bbafd50906bd7e77fd3c65387f734696250a60ffa72f6549",
+      "size": 1553332,
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/mutter_48.1-25_aarch64.deb"
     },
     {
       "name": "nautilus_48.3-3_aarch64.deb",

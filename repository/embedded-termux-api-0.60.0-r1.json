@@ -1,0 +1,45 @@
+{
+  "release": "embedded-termux-api-0.60.0-r1",
+  "app_source_commit": "cee3d4d34e6f9d3621bf4bb27bbb1e2637c134f1",
+  "android_upstream": "fc26ce17e3badf85d4df191af364fcf7798047f1",
+  "cli_upstream": "9e7f1531e1aa4a9c1e261a2dbde4de93653c366e",
+  "notes": "CLI包与已安装APK的内置资产逐字节一致；UPower为异步电池查询修复。仅arm64进行了设备验证；其他ABI仅编译/打包。完整硬件和proot验收待补。",
+  "assets": [
+    {
+      "name": "embedded-api-sources-cee3d4d3.tar.gz",
+      "size": 337328,
+      "sha256": "23506afd96954ae66792f43a21a1ed82eacc773979be76d4781f00c47c47c2cf",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/embedded-termux-api-0.60.0-r1/embedded-api-sources-cee3d4d3.tar.gz"
+    },
+    {
+      "name": "termux-api_0.60.0-1+embedded.1_aarch64.deb",
+      "size": 28516,
+      "sha256": "04e055e44a06380b23411751011a79aa81af90a4c6678508e51021fd81528bd0",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/embedded-termux-api-0.60.0-r1/termux-api_0.60.0-1+embedded.1_aarch64.deb"
+    },
+    {
+      "name": "termux-api_0.60.0-1+embedded.1_arm.deb",
+      "size": 28152,
+      "sha256": "b19b308560be75f0315a3367bc0addd8416e9a32511aa47d70810e5b54e02110",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/embedded-termux-api-0.60.0-r1/termux-api_0.60.0-1+embedded.1_arm.deb"
+    },
+    {
+      "name": "termux-api_0.60.0-1+embedded.1_i686.deb",
+      "size": 28572,
+      "sha256": "ccd27ecdc19699104311bea5a191b947fd20aed95d1efb217c40d94bd1a0402b",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/embedded-termux-api-0.60.0-r1/termux-api_0.60.0-1+embedded.1_i686.deb"
+    },
+    {
+      "name": "termux-api_0.60.0-1+embedded.1_x86_64.deb",
+      "size": 28784,
+      "sha256": "b4426305802fe8ebffe05a042ba2e7396652eb38dfa110a4487150685d1b3135",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/embedded-termux-api-0.60.0-r1/termux-api_0.60.0-1+embedded.1_x86_64.deb"
+    },
+    {
+      "name": "upower_1.91.5-1_aarch64.deb",
+      "size": 81692,
+      "sha256": "e0198daeabe6e8e5013c9d393340118f27c583c8a68cdbc2f774e2b4d3b478f3",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/embedded-termux-api-0.60.0-r1/upower_1.91.5-1_aarch64.deb"
+    }
+  ]
+}

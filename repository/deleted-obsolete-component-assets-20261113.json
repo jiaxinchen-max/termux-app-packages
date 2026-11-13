@@ -1,0 +1,626 @@
+{
+  "date": "2026-11-13",
+  "reason": "Owner-requested cleanup of superseded binaries; current runtime references and source/verification material retained.",
+  "deleted_asset_count": 55,
+  "deleted_bytes": 1335265389,
+  "assets": [
+    {
+      "tag": "rootfs-debian13-hangover-pdb2-minimal-v1",
+      "id": 723158080,
+      "name": "rootfs-debian13-hangover-pdb2-minimal-v1.tar.zst",
+      "size": 322915320,
+      "digest": "sha256:22734affd772ccfc99b99d850c6bdefa22683827c4a7b9204ca1a2595c03fbce",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/rootfs-debian13-hangover-pdb2-minimal-v1/rootfs-debian13-hangover-pdb2-minimal-v1.tar.zst",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:21.916399+00:00"
+    },
+    {
+      "tag": "native-ubuntu-gnome-48-r1",
+      "id": 740007656,
+      "name": "native-ubuntu-gnome-48-r1.bin",
+      "size": 28333062,
+      "digest": "sha256:0be2d58e3a4671e77848984919b5cfa066ec473a5cc1ff8977749eb80df5b4f8",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/native-ubuntu-gnome-48-r1/native-ubuntu-gnome-48-r1.bin",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:22.863909+00:00"
+    },
+    {
+      "tag": "native-gnome-apps-48-r1",
+      "id": 740296771,
+      "name": "gnome-control-center_48.5_aarch64.deb",
+      "size": 346024,
+      "digest": "sha256:fe400c3c0366bdd81226d2e15d626178052a89d30ec32d9ff14f162d42a58308",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/native-gnome-apps-48-r1/gnome-control-center_48.5_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:23.741194+00:00"
+    },
+    {
+      "tag": "native-gnome-apps-48-r1",
+      "id": 740296805,
+      "name": "tecla_48.0.2_aarch64.deb",
+      "size": 17124,
+      "digest": "sha256:3d427cee412bfca29755e4926d4be063bb66d7bddd0c743982cd70c4eff23875",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/native-gnome-apps-48-r1/tecla_48.0.2_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:24.834002+00:00"
+    },
+    {
+      "tag": "native-gnome-apps-48-r1",
+      "id": 740296905,
+      "name": "termux-app_apt-android-7-debug_arm64-v8a.apk",
+      "size": 46772763,
+      "digest": "sha256:cedceeb5fbba6ec3d73213f076d4db1222ab9caaf7981289d80c0504416e5645",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/native-gnome-apps-48-r1/termux-app_apt-android-7-debug_arm64-v8a.apk",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:25.734362+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r6",
+      "id": 738355611,
+      "name": "hyprland-android-runtime-aarch64-0.57.0-r6.tar.gz",
+      "size": 58712719,
+      "digest": "sha256:bb3b43556945c1d404a4deb27e60cec9870a6458c45266597f9a019048baa761",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r6/hyprland-android-runtime-aarch64-0.57.0-r6.tar.gz",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:26.617063+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r6",
+      "id": 738355908,
+      "name": "termux-hyprland-0.57.0-r6-arm64-v8a.apk",
+      "size": 45758904,
+      "digest": "sha256:382ccaeccac7361d74b29a7c848e8c1393afaa30a9a8698f5a1b06fb556d6130",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r6/termux-hyprland-0.57.0-r6-arm64-v8a.apk",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:27.526274+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r5",
+      "id": 738323240,
+      "name": "hyprland-android-runtime-aarch64-0.57.0-r5.tar.gz",
+      "size": 58713030,
+      "digest": "sha256:f90f0789705d31b0e01a5b77d4f694a53acd4227bf2eed8a0b02112c9608de91",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r5/hyprland-android-runtime-aarch64-0.57.0-r5.tar.gz",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:28.520435+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r5",
+      "id": 738323572,
+      "name": "termux-hyprland-0.57.0-r5-arm64-v8a.apk",
+      "size": 45758904,
+      "digest": "sha256:829633587744281b2cd048f7ec3a04c88b1385833df4b87663b298261c1c6a74",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r5/termux-hyprland-0.57.0-r5-arm64-v8a.apk",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:29.411699+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r4",
+      "id": 738283438,
+      "name": "hyprland-android-runtime-aarch64-0.57.0-r4.tar.gz",
+      "size": 59039970,
+      "digest": "sha256:31ebb56a127c87987f889c607c3e1107430cd3513143693c2e5a1b347d1f8829",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r4/hyprland-android-runtime-aarch64-0.57.0-r4.tar.gz",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:30.260345+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r4",
+      "id": 738283682,
+      "name": "termux-hyprland-0.57.0-r4-arm64-v8a.apk",
+      "size": 45758904,
+      "digest": "sha256:bd9fe512a6b45ca1d3953de9b5044c20598e4fb0a925e78bc4647f7289e0018f",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r4/termux-hyprland-0.57.0-r4-arm64-v8a.apk",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:31.211821+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181379,
+      "name": "aquamarine_0.16.0-2_aarch64.deb",
+      "size": 394944,
+      "digest": "sha256:eab2a1a09f54011e293f5461f75d8e84ccf72c0a388e037a95585b5d7791f0ed",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/aquamarine_0.16.0-2_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:32.101401+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181427,
+      "name": "hyprcursor_0.1.14-1_aarch64.deb",
+      "size": 177776,
+      "digest": "sha256:acf0b2fb381a8b0d5aa680770bc6af0b63604f1db77c2eebab77e4fc5eb18ff4",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprcursor_0.1.14-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:32.965346+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181484,
+      "name": "hyprgraphics_0.6.0-1_aarch64.deb",
+      "size": 70656,
+      "digest": "sha256:d0446b543fd6e99ef20b1f8d9d5ddf17c70d8c15a06afc2756b93dfafb5abaf7",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprgraphics_0.6.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:33.906488+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181960,
+      "name": "hyprland-android-runtime-aarch64-0.57.0-r3.tar.gz",
+      "size": 58958191,
+      "digest": "sha256:b0f8aa694fdae9d26bca8c9bccc51a1b080fb2771bfd3b55f8b56dfe2d542ec3",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprland-android-runtime-aarch64-0.57.0-r3.tar.gz",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:34.833409+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181517,
+      "name": "hyprland-protocols_0.8.0-1_all.deb",
+      "size": 9688,
+      "digest": "sha256:6feb5415dca1cf276a8a886aec51dbc173592f274445502cf566b5ef15f02f7c",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprland-protocols_0.8.0-1_all.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:35.721545+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181550,
+      "name": "hyprland_0.57.0-2_aarch64.deb",
+      "size": 49478172,
+      "digest": "sha256:9d4250fa6f4232762d94e8f583ef0edccfee422ec42d32a08a4cf74d15d7a6dd",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprland_0.57.0-2_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:37.003227+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181704,
+      "name": "hyprlang_0.6.8-1_aarch64.deb",
+      "size": 93440,
+      "digest": "sha256:1b35922a17e6e3275ddfb42f796380e60cd38f9035effa7a307469a93a8ec96a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprlang_0.6.8-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:38.128107+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181727,
+      "name": "hyprutils_0.14.3-1_aarch64.deb",
+      "size": 176940,
+      "digest": "sha256:54750eb27849b68e36f498e579a3b9a8263f884c8146a8c225b728bd00ac1ff8",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprutils_0.14.3-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:39.166984+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181746,
+      "name": "hyprwayland-scanner_0.4.6-1_aarch64.deb",
+      "size": 87864,
+      "digest": "sha256:5a27c41697995286657d5200637888221cfffe12e4b0282bb6186e4bbe09734a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprwayland-scanner_0.4.6-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:40.131131+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181790,
+      "name": "hyprwire_0.3.1-1_aarch64.deb",
+      "size": 148624,
+      "digest": "sha256:a9a40c2c374178e59f55d2c7d29b5ee1f18b3d655a94390f5cb714bfe89222d9",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/hyprwire_0.3.1-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:41.082358+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181822,
+      "name": "libandroid-stub_30-3_aarch64.deb",
+      "size": 27384,
+      "digest": "sha256:01b9779e35dc16dd66dd2f563fee411f0b97695a7f426f2d75b8998001060567",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/libandroid-stub_30-3_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:42.000885+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181866,
+      "name": "libinput_0.1.0-1_aarch64.deb",
+      "size": 14704,
+      "digest": "sha256:6637ddfa0355b67b6c88d4c9859a0cc0e1b1281ba072bbd2eb10c52f958c962e",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/libinput_0.1.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:44.075960+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181909,
+      "name": "libudev_0.1.0-1_aarch64.deb",
+      "size": 8180,
+      "digest": "sha256:91d1657da64557d421e97e33398f0a3c6764569dbb940c399d08a080e9c68456",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/libudev_0.1.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:45.127473+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "id": 738181931,
+      "name": "xcb-util-errors_1.0.1_aarch64.deb",
+      "size": 11312,
+      "digest": "sha256:cccdfd964ec3833ce07548aeb1022191a99320a7309da4cb261d021ebc6736a0",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r3/xcb-util-errors_1.0.1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:46.413980+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738066753,
+      "name": "aquamarine_0.16.0-1_aarch64.deb",
+      "size": 395600,
+      "digest": "sha256:a75d66b26893f7117d106ef0d838177144d47571e855a3fe305dc69fed593a58",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/aquamarine_0.16.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:47.463484+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738066790,
+      "name": "hyprcursor_0.1.14-1_aarch64.deb",
+      "size": 177776,
+      "digest": "sha256:acf0b2fb381a8b0d5aa680770bc6af0b63604f1db77c2eebab77e4fc5eb18ff4",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprcursor_0.1.14-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:48.357778+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738066811,
+      "name": "hyprgraphics_0.6.0-1_aarch64.deb",
+      "size": 70656,
+      "digest": "sha256:d0446b543fd6e99ef20b1f8d9d5ddf17c70d8c15a06afc2756b93dfafb5abaf7",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprgraphics_0.6.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:49.304701+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067272,
+      "name": "hyprland-android-runtime-aarch64-0.57.0-r2.tar.gz",
+      "size": 58715310,
+      "digest": "sha256:14d1ffd3b7f5c969d7029dab9e9eea396a83beafc90ed79684f5c4615083f106",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprland-android-runtime-aarch64-0.57.0-r2.tar.gz",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:50.185887+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738066847,
+      "name": "hyprland-protocols_0.8.0-1_all.deb",
+      "size": 9688,
+      "digest": "sha256:6feb5415dca1cf276a8a886aec51dbc173592f274445502cf566b5ef15f02f7c",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprland-protocols_0.8.0-1_all.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:51.072113+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738066884,
+      "name": "hyprland_0.57.0-2_aarch64.deb",
+      "size": 49478172,
+      "digest": "sha256:9d4250fa6f4232762d94e8f583ef0edccfee422ec42d32a08a4cf74d15d7a6dd",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprland_0.57.0-2_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:52.223193+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067054,
+      "name": "hyprlang_0.6.8-1_aarch64.deb",
+      "size": 93440,
+      "digest": "sha256:1b35922a17e6e3275ddfb42f796380e60cd38f9035effa7a307469a93a8ec96a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprlang_0.6.8-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:53.154574+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067083,
+      "name": "hyprutils_0.14.3-1_aarch64.deb",
+      "size": 176940,
+      "digest": "sha256:54750eb27849b68e36f498e579a3b9a8263f884c8146a8c225b728bd00ac1ff8",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprutils_0.14.3-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:54.054957+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067125,
+      "name": "hyprwayland-scanner_0.4.6-1_aarch64.deb",
+      "size": 87864,
+      "digest": "sha256:5a27c41697995286657d5200637888221cfffe12e4b0282bb6186e4bbe09734a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprwayland-scanner_0.4.6-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:54.998026+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067144,
+      "name": "hyprwire_0.3.1-1_aarch64.deb",
+      "size": 148624,
+      "digest": "sha256:a9a40c2c374178e59f55d2c7d29b5ee1f18b3d655a94390f5cb714bfe89222d9",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/hyprwire_0.3.1-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:55.883459+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067182,
+      "name": "libandroid-stub_30-3_aarch64.deb",
+      "size": 27384,
+      "digest": "sha256:01b9779e35dc16dd66dd2f563fee411f0b97695a7f426f2d75b8998001060567",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/libandroid-stub_30-3_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:56.759439+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067209,
+      "name": "libinput_0.1.0-1_aarch64.deb",
+      "size": 14704,
+      "digest": "sha256:6637ddfa0355b67b6c88d4c9859a0cc0e1b1281ba072bbd2eb10c52f958c962e",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/libinput_0.1.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:57.604604+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067226,
+      "name": "libudev_0.1.0-1_aarch64.deb",
+      "size": 8180,
+      "digest": "sha256:91d1657da64557d421e97e33398f0a3c6764569dbb940c399d08a080e9c68456",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/libudev_0.1.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:58.533177+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "id": 738067246,
+      "name": "xcb-util-errors_1.0.1_aarch64.deb",
+      "size": 11312,
+      "digest": "sha256:cccdfd964ec3833ce07548aeb1022191a99320a7309da4cb261d021ebc6736a0",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r2/xcb-util-errors_1.0.1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:08:59.841843+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738049653,
+      "name": "aquamarine_0.16.0-1_aarch64.deb",
+      "size": 395600,
+      "digest": "sha256:a75d66b26893f7117d106ef0d838177144d47571e855a3fe305dc69fed593a58",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/aquamarine_0.16.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:00.727519+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738049679,
+      "name": "hyprcursor_0.1.14-1_aarch64.deb",
+      "size": 177776,
+      "digest": "sha256:acf0b2fb381a8b0d5aa680770bc6af0b63604f1db77c2eebab77e4fc5eb18ff4",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprcursor_0.1.14-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:01.669295+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738049724,
+      "name": "hyprgraphics_0.6.0-1_aarch64.deb",
+      "size": 70656,
+      "digest": "sha256:d0446b543fd6e99ef20b1f8d9d5ddf17c70d8c15a06afc2756b93dfafb5abaf7",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprgraphics_0.6.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:02.607630+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050289,
+      "name": "hyprland-android-runtime-aarch64-0.57.0-r1.tar.gz",
+      "size": 58714456,
+      "digest": "sha256:38c40cae67328bade937b427ea46e53f3fe8e926058aa6649f6a091557f227ed",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprland-android-runtime-aarch64-0.57.0-r1.tar.gz",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:03.526129+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738049769,
+      "name": "hyprland-protocols_0.8.0-1_all.deb",
+      "size": 9688,
+      "digest": "sha256:6feb5415dca1cf276a8a886aec51dbc173592f274445502cf566b5ef15f02f7c",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprland-protocols_0.8.0-1_all.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:04.543708+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738049803,
+      "name": "hyprland_0.57.0-1_aarch64.deb",
+      "size": 49479448,
+      "digest": "sha256:859d07f3d50a4d2ff76837efad61707bd10d200876835455bcd092706ed09a09",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprland_0.57.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:05.452861+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050054,
+      "name": "hyprlang_0.6.8-1_aarch64.deb",
+      "size": 93440,
+      "digest": "sha256:1b35922a17e6e3275ddfb42f796380e60cd38f9035effa7a307469a93a8ec96a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprlang_0.6.8-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:06.327728+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050086,
+      "name": "hyprutils_0.14.3-1_aarch64.deb",
+      "size": 176940,
+      "digest": "sha256:54750eb27849b68e36f498e579a3b9a8263f884c8146a8c225b728bd00ac1ff8",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprutils_0.14.3-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:07.366758+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050105,
+      "name": "hyprwayland-scanner_0.4.6-1_aarch64.deb",
+      "size": 87864,
+      "digest": "sha256:5a27c41697995286657d5200637888221cfffe12e4b0282bb6186e4bbe09734a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprwayland-scanner_0.4.6-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:08.742403+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050131,
+      "name": "hyprwire_0.3.1-1_aarch64.deb",
+      "size": 148624,
+      "digest": "sha256:a9a40c2c374178e59f55d2c7d29b5ee1f18b3d655a94390f5cb714bfe89222d9",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/hyprwire_0.3.1-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:09.686463+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050157,
+      "name": "libandroid-stub_30-3_aarch64.deb",
+      "size": 27384,
+      "digest": "sha256:01b9779e35dc16dd66dd2f563fee411f0b97695a7f426f2d75b8998001060567",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/libandroid-stub_30-3_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:10.533424+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050184,
+      "name": "libinput_0.1.0-1_aarch64.deb",
+      "size": 14704,
+      "digest": "sha256:6637ddfa0355b67b6c88d4c9859a0cc0e1b1281ba072bbd2eb10c52f958c962e",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/libinput_0.1.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:11.459005+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050212,
+      "name": "libudev_0.1.0-1_aarch64.deb",
+      "size": 8180,
+      "digest": "sha256:91d1657da64557d421e97e33398f0a3c6764569dbb940c399d08a080e9c68456",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/libudev_0.1.0-1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:12.353442+00:00"
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "id": 738050239,
+      "name": "xcb-util-errors_1.0.1_aarch64.deb",
+      "size": 11312,
+      "digest": "sha256:cccdfd964ec3833ce07548aeb1022191a99320a7309da4cb261d021ebc6736a0",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r1/xcb-util-errors_1.0.1_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:13.950054+00:00"
+    },
+    {
+      "tag": "rootfs_hangover_11.16-v1",
+      "id": 646113699,
+      "name": "rootfs_hangover_11.16.tar",
+      "size": 293099520,
+      "digest": "sha256:b5493f5903ab3c05f78bf4c03b06ac0005eb26f732437748c1592fefa45e861a",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/rootfs_hangover_11.16-v1/rootfs_hangover_11.16.tar",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:15.166420+00:00"
+    },
+    {
+      "tag": "gnome-usb-20261030-r1",
+      "id": 705278024,
+      "name": "mutter_48.1-24_aarch64.deb",
+      "size": 1549548,
+      "digest": "sha256:c222405b73404c57799e53f32344b9db28adc8de2ba9ef98704d81950ab27349",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-usb-20261030-r1/mutter_48.1-24_aarch64.deb",
+      "status": "deleted",
+      "at": "2026-11-13T09:09:16.013387+00:00"
+    }
+  ],
+  "verification": [
+    {
+      "tag": "gnome-usb-20261030-r1",
+      "remaining_assets": 20,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r1",
+      "remaining_assets": 6,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r2",
+      "remaining_assets": 6,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r3",
+      "remaining_assets": 6,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r4",
+      "remaining_assets": 2,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r5",
+      "remaining_assets": 2,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "hyprland-android-0.57.0-70ec30e7-r6",
+      "remaining_assets": 5,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "native-gnome-apps-48-r1",
+      "remaining_assets": 3,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "native-ubuntu-gnome-48-r1",
+      "remaining_assets": 2,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "rootfs-debian13-hangover-pdb2-minimal-v1",
+      "remaining_assets": 2,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    },
+    {
+      "tag": "rootfs_hangover_11.16-v1",
+      "remaining_assets": 0,
+      "expected_preserved_assets_present": true,
+      "deleted_assets_absent": true
+    }
+  ]
+}
