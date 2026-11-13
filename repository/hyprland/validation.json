@@ -1,0 +1,58 @@
+{
+  "apk_name": "termux-app_apt-android-7-debug_arm64-v8a.apk",
+  "apk_verification": {
+    "abis": [
+      "arm64-v8a"
+    ],
+    "apk": "termux-app_apt-android-7-debug_arm64-v8a.apk",
+    "desktop_jvm_tests": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 103
+    },
+    "embedded_assets_sha256": {
+      "desktop_hyprland_components.py": "94044eb1e795f510acc16681ee3a33fc8d5d2c76b42090a39cd62c98978911ac",
+      "hyprland-components.json": "4d51515990093089a7f03af7bdabd534c99b1ec129361f2bb32605c587eeb35f",
+      "hyprland-components.sh": "ad468f37398396e9a464730f4d2c5cc2da35b7649c57351850d70979196e8eb2",
+      "hyprland-theme-classic-r7.tgz": "760ca7702636adc7336cb373dc820fc1a25d5e524e77e122cde181df1dab3269",
+      "hyprland-theme-m3ww-v1.tgz": "ed6431709fb9a0d496356d6de93b653070097127bb18a1750b7ca0855ca6bffc"
+    },
+    "sha256": "1cbf6ab449554e9fb6b5943c744a773a8d6b9479146d361d7da0d57c8ba92a76",
+    "signature": "verified; debug key; details in apk-signature.log",
+    "size": 48414118
+  },
+  "app_push": false,
+  "checks": {
+    "catalog_and_theme_reproducibility": "passed",
+    "clean_source_overlay_reproduction": "passed; regenerated themes/catalog match release and APK bytes",
+    "desktop_jvm_tests": {
+      "evidence": "Final APK build: 103 tests, 0 failures, 0 errors, 0 skipped; XML in verification-evidence.tar.gz",
+      "passed": 103
+    },
+    "native_compositor": "unchanged r7 runtime; no rebuild",
+    "openspec_strict": "passed",
+    "python_checks": {
+      "evidence": "Existing adaptation regression logs; component checks repeated after URL/size synchronization",
+      "passed": 69
+    }
+  },
+  "date": "2026-11-13",
+  "deployment": false,
+  "evidence": {
+    "asset": "verification-evidence.tar.gz",
+    "sha256": "f7668bc6fccde726c16804196df628ed33c0c914e988f210530635b77eab2703",
+    "size": 9050
+  },
+  "historical_r8_evidence": "Historical results remain in the r8 release and are not tests of this adaptation",
+  "pending": [
+    "Real Android graphics and input",
+    "Native and PRoot device scenarios",
+    "Final user acceptance and product knowledge consistency"
+  ],
+  "schema": 1,
+  "status": "candidate; device acceptance pending",
+  "unavailable": [
+    "Repository Harness strict gate scripts absent"
+  ]
+}

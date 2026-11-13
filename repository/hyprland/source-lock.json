@@ -1,0 +1,221 @@
+{
+  "app_base_commit": "0a366a222ae58966b4b0c652e2b06416348cbe30",
+  "app_branch": "master-x11-submodule-tmp",
+  "app_repository": "https://github.com/jiaxinchen-max/termux-app",
+  "app_source_files_sha256": {
+    "distribution/hyprland-themes/README.md": "618e491823fa5906621299d9a2bb90e54678465b48645338cd3b21b2b35e109f",
+    "distribution/hyprland-themes/classic-r7/LICENSE.txt": "ec42b52236188e60c8b4a2eb02944fc6e08ad063a5916b216d770ce12323fd9c",
+    "distribution/hyprland-themes/classic-r7/PROJECT-LICENSE.md": "98a85a2f28a490d632015f0bed29bf0a29f168ae5d1627e50560a71d7bd7c240",
+    "distribution/hyprland-themes/classic-r7/wallpaper.svg": "f2eac48c49bb824f54bcc81816ae21643e6d67f0a227bec15a1c859c70d59ecd",
+    "distribution/hyprland-themes/m3ww-v1/FONT-LICENSE.txt": "30f0c136e3c88e422d0791acd97238870f9054a9729bc34cf2ff0d4ed8cac4ad",
+    "distribution/hyprland-themes/m3ww-v1/LICENSE.txt": "ec42b52236188e60c8b4a2eb02944fc6e08ad063a5916b216d770ce12323fd9c",
+    "distribution/hyprland-themes/m3ww-v1/PROJECT-LICENSE.md": "98a85a2f28a490d632015f0bed29bf0a29f168ae5d1627e50560a71d7bd7c240",
+    "distribution/hyprland-themes/m3ww-v1/eww.scss": "d0b94093c1eaa3db2bb196357b04c3af1267e29192666575e1c24db2a754ee60",
+    "distribution/hyprland-themes/m3ww-v1/font.ttf": "0ec29a68b539ece7078fc714cebff0c0accb2f4948f8f7963d9f5e86633b12d9",
+    "distribution/hyprland-themes/m3ww-v1/foot.ini": "5b76aae5742e9bbbfbd284af53babfe9d6349f83c93a1af67e4066e16859867a",
+    "distribution/hyprland-themes/m3ww-v1/gtk.css": "e72e0f7e0cb16cb5d8e6fbaaa8356cbd989786b3a5343e7a8a7ddde14090c778",
+    "distribution/hyprland-themes/m3ww-v1/settings.ini": "b9166056fca9ce728d65dfdcc05d2710788d4e8a048bbe50dc214b5325ac9305",
+    "distribution/hyprland-themes/m3ww-v1/starship.toml": "7f30aa531cb097e9b21de45b2345d750bcabc1ff791e581f47b1d4f6aca64c02",
+    "distribution/hyprland-themes/m3ww-v1/wallpaper.svg": "7ccc96a0fb6299f552c19e7a315212d45d97e059e8b3f28042d7379a54d2cf97",
+    "openspec/changes/separate-hyprland-runtime-theme/.openspec.yaml": "3ea192d12c1ad3d96d8e6cfd6fddb23c8be77d85611385996b685b4736c117c0",
+    "openspec/changes/separate-hyprland-runtime-theme/design.md": "a733a0ac24ab5233d895475e675411d7e37c0199d84be52f59d93e84743b35f5",
+    "openspec/changes/separate-hyprland-runtime-theme/proposal.md": "9b57ce888b0ef710602ceefd6dd144a04abed1d5965662654e188e7984830804",
+    "openspec/changes/separate-hyprland-runtime-theme/specs/desktop-hyprland-components/spec.md": "d20024f6b148a4b0d4bf12693ebbe2d79e6a12298e2d39098da0d035f002ab86",
+    "openspec/changes/separate-hyprland-runtime-theme/tasks.md": "027f9e408878b9b48db9c4d1c863154ce98e99f626cf4e51c3029faaf9a9f9ec",
+    "termux-ui/scripts/test-desktop-hyprland-components.py": "213d16533000eb0a9027563708836392be8400fd1d5e4d2680fe33a33d01bddc",
+    "termux-ui/scripts/test-desktop-hyprland-gpu.py": "df44b597a9513ba9d68df1a44a9db5f362134f23d1c1c45d65ad54f5fb9c26f1",
+    "termux-ui/scripts/test-desktop-hyprland-install.py": "258d2f68a8104934246bbb9c8d827dd27558c0e2d26633f7657ffa189ff43b76",
+    "termux-ui/scripts/test-desktop-hyprland-shell.py": "5b1fb79e5350a24a0814b1bc9943c36e65484f79022acf4b3ef699f1777de9d5",
+    "termux-ui/scripts/test-desktop-hyprland-theme.py": "feaa350f892c84a43421ab0c5b42e5f0768eecc1328b7cbc97e6121f25f7b1b1",
+    "termux-ui/scripts/test-desktop-hyprland.py": "16231923146f49b867ec22109a7c1082b9d09a0a6d784f378969eb588e1e0007",
+    "termux-ui/src/main/assets/local-games/desktop_hyprland.py": "3ba11b3487747fbe9e89306c06bd3655cd034240c7530b7e6e4382b08b143282",
+    "termux-ui/src/main/assets/local-games/desktop_hyprland_components.py": "94044eb1e795f510acc16681ee3a33fc8d5d2c76b42090a39cd62c98978911ac",
+    "termux-ui/src/main/assets/local-games/desktop_hyprland_shell.py": "0cf0201f8abfa8dd3efc299c8e122586f8abcd1326a2f069bfb56ab73d139bb1",
+    "termux-ui/src/main/assets/local-games/desktop_hyprland_theme.py": "808ae506abbf35eda92c84b401cfa5bddb0ed63025cf9288baead42d12d7b5a7",
+    "termux-ui/src/main/assets/local-games/desktop_initialize.py": "0371791883215f9605225f1d49067705f0a4a7896fabaca5e650e7ea0d7e657f",
+    "termux-ui/src/main/assets/local-games/desktop_install.sh": "b6e0bf0e9c1acd43e35adf46354608d49836bcc323e7accff37f8bcece81cceb",
+    "termux-ui/src/main/assets/local-games/desktop_start.sh": "5eebaa4ca12edc2eedbc5876eb719297c6a9a4798bf787b733286b8b6f606960",
+    "termux-ui/src/main/assets/local-games/hyprland-components.json": "4d51515990093089a7f03af7bdabd534c99b1ec129361f2bb32605c587eeb35f",
+    "termux-ui/src/main/assets/local-games/hyprland-components.sh": "ad468f37398396e9a464730f4d2c5cc2da35b7649c57351850d70979196e8eb2",
+    "termux-ui/src/main/java/com/termux/ui/desktop/activity/DesktopActivity.java": "330325cc8db153ea075b14d4a3caa1cf19cb4273fe3671205c8c7ae1ad71f567",
+    "termux-ui/src/main/java/com/termux/ui/desktop/activity/DesktopCreateActivity.java": "47d4ec9829054cb10efb73a91ff2393d5e4cd2a5397193a9421408b97e4c00a3",
+    "termux-ui/src/main/java/com/termux/ui/desktop/activity/DesktopSettingsDialog.java": "adb0462980126e9b068306bf8528c4b1df5b8f7d076d1ca0acfb4fe579e2ed94",
+    "termux-ui/src/main/java/com/termux/ui/desktop/api/DesktopTasks.java": "8b06a51c9bcaa6104e2f0c59c1f336fa9a117bf857b0c97648e72f535be85985",
+    "termux-ui/src/main/java/com/termux/ui/desktop/data/FileDesktopDistroRepository.java": "e5f02a4648b92c91d6b9c3fab57ef70a5233d1c87dab624f57599797af0868c5",
+    "termux-ui/src/main/java/com/termux/ui/desktop/data/HyprlandSelectionTransaction.java": "5b05d7b38ab08ac2435241a54e92c7bbdfcf1ba9907886f3391639ab2f6976ed",
+    "termux-ui/src/main/java/com/termux/ui/desktop/domain/DesktopDistro.java": "25365abee52242e13cdcda3be4a5e66e2b4d684f8519edd278bf8e31f36b4306",
+    "termux-ui/src/main/java/com/termux/ui/desktop/domain/HyprlandComponents.java": "fd5de064a2776ce936a3dc863b0da95710569351365dd12e586d37b8fe73990e",
+    "termux-ui/src/main/java/com/termux/ui/desktop/runtime/DesktopEnvironment.java": "408d4f5033ad7709dba5dbe8e33666b01a9ae4979e342cdd77e2726e8ed91748",
+    "termux-ui/src/main/java/com/termux/ui/desktop/runtime/DesktopLaunchSpec.java": "2de7d8b3d80fd2005a9bb6cc896c19e709810325bf1e211ec31ce4d270c616bc",
+    "termux-ui/src/main/java/com/termux/ui/service/LaunchScriptInstaller.java": "824fb4dd8d2b2a8730e5050031bb1bb33bb0c0b2a9ba441933588c01ce01fd70",
+    "termux-ui/src/main/res/layout/activity_desktop_create.xml": "63e5bc2b587126dd47efa0ae8297a3ebb94a541e3b1c79ec115c8271232992d7",
+    "termux-ui/src/main/res/layout/sheet_desktop_settings.xml": "90bad3f57d1aca4373c4dc9224460f4d515e876ef376961fbacf42c52ca4d83a",
+    "termux-ui/src/main/res/values-zh-rCN/strings_hyprland.xml": "0b9b132fa823d5ff36ff732bf4d44f14487315d3594ae9bee24299353f52f0fe",
+    "termux-ui/src/main/res/values/strings_hyprland.xml": "e356964e9ca0a2554538c732508d8aef4f390b3b627319e01c2c424a098eb8e6",
+    "termux-ui/src/test/java/com/termux/ui/desktop/api/DesktopTasksSettingsTest.java": "7cc2e3abbfae4ec5f29b6e989917b0b23dbc55f376841536a6360844348cc213",
+    "termux-ui/src/test/java/com/termux/ui/desktop/data/HyprlandComponentsRepositoryTest.java": "13fbf31b661b620822e5a868cc6223e8a1be2229c5f53724cd3a73def1c6933d",
+    "termux-ui/src/test/java/com/termux/ui/desktop/runtime/DesktopEnvironmentTest.java": "e11421f2e607b076cc3e047d4c81a02611da1634398b05ec4a3203f39adce67c",
+    "termux-ui/src/test/java/com/termux/ui/desktop/runtime/DesktopLaunchSpecTest.java": "ec576cb89dba7571d88eb6d2fa339a362e4486c268c09757b06877af0d454632",
+    "tools/build-hyprland-themes.py": "a15edcc6f71fd67ebc6b3339dbe56d11a0c820be536ec5014b5c676b53e360ae"
+  },
+  "app_worktree": "uncommitted approved adaptation; source overlay applied to base commit",
+  "build_boundary": {
+    "embedded_termux_api_deb": "Built with App on Linux",
+    "native_termux_packages": "Remote builder port 7022 /workspace/termux-packages/build-package.sh; no native changes or rebuild in this publication"
+  },
+  "catalog_sha256": "4d51515990093089a7f03af7bdabd534c99b1ec129361f2bb32605c587eeb35f",
+  "recursive_submodule_commits": [
+    " 6a8690fc8d26c815e798c588f796eabe9d684cf0 termux-x11/src/main/cpp/bzip2 (bzip2-1.0.8)",
+    " c84bc9459357a40e46e2fec0408d04fbdde2c973 termux-x11/src/main/cpp/libepoxy (1.5.10)",
+    " 780d1f6f192a331de7b298a96e23ebc44d2a884b termux-x11/src/main/cpp/libfontenc (libfontenc-1.1.9)",
+    " 5ca4ca92f629d9d83e83544b9239abaaacf0a527 termux-x11/src/main/cpp/libtirpc (libtirpc-1-2-7-rc4)",
+    " 6c75545a1deb51f5903992c52af6bc35cc9bc103 termux-x11/src/main/cpp/libx11 (libX11-1.8.13)",
+    " a9c65683e68b3a4349afee5d7673b393fb924d2e termux-x11/src/main/cpp/libxau (libXau-1.0.12)",
+    " dd8631c61465cc0de5e476c7a98e56528d62b163 termux-x11/src/main/cpp/libxcvt (libxcvt-0.1.3)",
+    " 1192d3bc407348ff316bd3bffc791b3ac73f591b termux-x11/src/main/cpp/libxdmcp (libXdmcp-1.1.5)",
+    " 2c2e44c94ef17ecd5003a173237b57b315e28d93 termux-x11/src/main/cpp/libxfont (libXfont2-2.0.7)",
+    " 42e5dedd7fd3c7c73f3870a8751893c03c1afc69 termux-x11/src/main/cpp/libxkbfile (libxkbfile-1.2.0)",
+    " 89f064748554e11832a3ec783945e1f4c7fe846e termux-x11/src/main/cpp/libxshmfence (libxshmfence-1.3.3)",
+    " cf05ba4a10c90da2c63805a5375e983b174e28b0 termux-x11/src/main/cpp/libxtrans (xtrans-1.6.0)",
+    " 9cc163c9da0fb4da430641715313d95a6ec466d9 termux-x11/src/main/cpp/pixman (pixman-0.46.4)",
+    " 2c7789785981ad1fce3858c726615b49293f7de0 termux-x11/src/main/cpp/xkbcomp (xkbcomp-1.5.0)",
+    " c18d2bc22813793bba7f0e4e603c0104d7724802 termux-x11/src/main/cpp/xorgproto (xorgproto-2025.1)",
+    " 65d790bd208ec380b196eb98f144abb0b32e334d termux-x11/src/main/cpp/xserver (xorg-server-21.1.24)"
+  ],
+  "release": "hyprland-components-20261113-r1",
+  "runtimes": {
+    "0.57.0-r7": {
+      "architecture": "aarch64",
+      "archive_sha256": "2fd3bd98104d7b411c9760efb2ad3270e950a1be4a146fa089b19a6fea169b10",
+      "asset": "hyprland-android-runtime-aarch64-0.57.0-r7.tar.gz",
+      "base_url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-android-0.57.0-70ec30e7-r7",
+      "manifest_sha256": "6024fd61a4923031ce9d7c4d35c1d545e75cbff16fe1ae9ab8aab86a0167f948",
+      "release": "hyprland-android-0.57.0-70ec30e7-r7",
+      "required_files": [
+        "bin/Hyprland",
+        "bin/hyprctl",
+        "bin/Xwayland",
+        "lib/hyprland/android/libhyprland-system-gl.so",
+        "lib/hyprland/android/libvndksupport.so"
+      ],
+      "size": 58892089
+    }
+  },
+  "schema": 1,
+  "source_overlay": {
+    "asset": "hyprland-components-source-overlay.tar.gz",
+    "sha256": "eacea97188657ab88323b57e8dbe5416731d3910a8ef76bda5db8fa20263e1e1",
+    "size": 1461378
+  },
+  "themes": {
+    "classic-r7": {
+      "archive_sha256": "760ca7702636adc7336cb373dc820fc1a25d5e524e77e122cde181df1dab3269",
+      "asset": "hyprland-theme-classic-r7.tgz",
+      "delivery_revision": "r7",
+      "files": [
+        "bin/xfce4-panel",
+        "bin/xfconf-query",
+        "lib/xfce4/panel/plugins/libgenmon.so"
+      ],
+      "label": "Classic · r7",
+      "manifest_sha256": "c53d379a39539cc77bd5e8501651d4dd7e00f06c44886fa1492af7e07b16fc20",
+      "packages": [
+        "python",
+        "dbus",
+        "pulseaudio",
+        "swaybg",
+        "xfce4-notifyd",
+        "gtk-layer-shell",
+        "adwaita-icon-theme",
+        "xfce4-terminal",
+        "xfce4-panel",
+        "xfce4-genmon-plugin"
+      ],
+      "release": "hyprland-components-20261113-r1",
+      "required_files": [
+        "bin/python3",
+        "bin/dbus-daemon",
+        "bin/swaybg",
+        "bin/dbus-send",
+        "lib/xfce4/notifyd/xfce4-notifyd",
+        "bin/xfce4-panel",
+        "bin/xfconf-query",
+        "lib/xfce4/panel/plugins/libgenmon.so"
+      ],
+      "resource_files": [
+        "LICENSE.txt",
+        "PROJECT-LICENSE.md",
+        "manifest.json",
+        "wallpaper.svg"
+      ],
+      "runtime_ids": [
+        "0.57.0-r7"
+      ],
+      "size": 1040,
+      "source": "bundled",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-components-20261113-r1/hyprland-theme-classic-r7.tgz"
+    },
+    "m3ww-v1": {
+      "archive_sha256": "ed6431709fb9a0d496356d6de93b653070097127bb18a1750b7ca0855ca6bffc",
+      "asset": "hyprland-theme-m3ww-v1.tgz",
+      "delivery_revision": "r8",
+      "files": [
+        "bin/eww",
+        "bin/foot",
+        "bin/fish",
+        "bin/starship",
+        "bin/fc-cache"
+      ],
+      "label": "m3ww · v1 (r8)",
+      "manifest_sha256": "652e0a1d0107ccbd393bde1496e1643ae30d8e7a677c0739feb6df123770dced",
+      "packages": [
+        "python",
+        "dbus",
+        "pulseaudio",
+        "swaybg",
+        "xfce4-notifyd",
+        "gtk-layer-shell",
+        "adwaita-icon-theme",
+        "xfce4-terminal",
+        "eww",
+        "foot",
+        "fish",
+        "starship",
+        "fontconfig-utils",
+        "pygobject"
+      ],
+      "release": "hyprland-components-20261113-r1",
+      "required_files": [
+        "bin/python3",
+        "bin/dbus-daemon",
+        "bin/swaybg",
+        "bin/dbus-send",
+        "lib/xfce4/notifyd/xfce4-notifyd",
+        "bin/eww",
+        "bin/foot",
+        "bin/fish",
+        "bin/starship",
+        "bin/fc-cache"
+      ],
+      "resource_files": [
+        "FONT-LICENSE.txt",
+        "LICENSE.txt",
+        "PROJECT-LICENSE.md",
+        "eww.scss",
+        "font.ttf",
+        "foot.ini",
+        "gtk.css",
+        "manifest.json",
+        "settings.ini",
+        "starship.toml",
+        "wallpaper.svg"
+      ],
+      "runtime_ids": [
+        "0.57.0-r7"
+      ],
+      "size": 1352342,
+      "source": "bundled",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/hyprland-components-20261113-r1/hyprland-theme-m3ww-v1.tgz"
+    }
+  }
+}
