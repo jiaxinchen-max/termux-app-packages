@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "release": "gnome-50-resolute-20261116-r1",
+  "repository": "https://github.com/jiaxinchen-max/termux-app-packages",
+  "source_commit": "52ccd54399a907284b95d44dae59d8f2088d951c",
+  "publication_channel": "prerelease",
+  "integration_status": "NotReadyForAppRelease",
+  "assets": [
+    {
+      "name": "README.md",
+      "size": 917,
+      "sha256": "c5f65ebd25fbbee0cf2c0dc532196a5d230c049d50597b65fc37f8ca6b856cbb",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/README.md"
+    },
+    {
+      "name": "gjs_1.88.0_aarch64.deb",
+      "size": 345980,
+      "sha256": "75764e4d0a55fa3ce8cc8240fcea019467d92b1fd38cec9b74b9c8cbc3c23529",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/gjs_1.88.0_aarch64.deb"
+    },
+    {
+      "name": "gnome-50-resolute-sources.tar.gz",
+      "size": 19137279,
+      "sha256": "8ec89a734fbd5b50ab4dbbbf61202451e3f08577b603cd8bd354668c10c02490",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/gnome-50-resolute-sources.tar.gz"
+    },
+    {
+      "name": "gnome-shell_50.1-2_aarch64.deb",
+      "size": 826856,
+      "sha256": "37c447a7e282e42c891d2f343d9d3cc506811e487bd3cca2defae3fc5882eb19",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/gnome-shell_50.1-2_aarch64.deb"
+    },
+    {
+      "name": "libandroid-stub_30-3_aarch64.deb",
+      "size": 27348,
+      "sha256": "88c7f4ba78a5eb57eafc2f1102ceea562a156fe7346528ca35c771eb0927fefc",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/libandroid-stub_30-3_aarch64.deb"
+    },
+    {
+      "name": "libepoxy_1.5.10-6_aarch64.deb",
+      "size": 299448,
+      "sha256": "c78f1674337e4a90a9c933d6301d058bf2be85bc926baae6202320e803582d83",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/libepoxy_1.5.10-6_aarch64.deb"
+    },
+    {
+      "name": "mutter_50.1-4_aarch64.deb",
+      "size": 1529704,
+      "sha256": "294a5de617a3da94aa8c81a486bdcd021eb0d0524e278cea8b10fd0ebd69ac37",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/mutter_50.1-4_aarch64.deb"
+    },
+    {
+      "name": "source-lock.json",
+      "size": 30183,
+      "sha256": "52bbbac5809b662bcfc7b7daf6d39e9a145cbdd6b0db10f434d3176621093a73",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/source-lock.json"
+    },
+    {
+      "name": "spidermonkey_140.17.0-1_aarch64.deb",
+      "size": 12311892,
+      "sha256": "dd60c5d67bbff83038202b796bb2dcc6e9c01acaddae5c1a4ff32f6f35134f9e",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/spidermonkey_140.17.0-1_aarch64.deb"
+    },
+    {
+      "name": "termux-gnome-glycin-resolute-aarch64-2.1.1-r1.tar.gz",
+      "size": 2034992,
+      "sha256": "cb72b99666baacb5cd8b4fd62960f3a54568c49c04a05bd8b5f9280ba8493eb9",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/termux-gnome-glycin-resolute-aarch64-2.1.1-r1.tar.gz"
+    },
+    {
+      "name": "termux-render_0.1.0-1_aarch64.deb",
+      "size": 3522740,
+      "sha256": "4dc75a1aed887a59790f03a8c76948de514678fd7c8a00fb04fbc2975a0ac0d6",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/termux-render_0.1.0-1_aarch64.deb"
+    },
+    {
+      "name": "termux-usb-gio-resolute-aarch64-0.4.1.tar.gz",
+      "size": 19490,
+      "sha256": "a843a28f1821c1e598d8c653ea0db7e6540d188d42296cc5a305bd4a838982ea",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/termux-usb-gio-resolute-aarch64-0.4.1.tar.gz"
+    },
+    {
+      "name": "validation.json",
+      "size": 1624,
+      "sha256": "d624fd007bfae5d08b57b5fa9e92e83ccffbe95f3f1c0f895dd30d87eb400c0d",
+      "url": "https://github.com/jiaxinchen-max/termux-app-packages/releases/download/gnome-50-resolute-20261116-r1/validation.json"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "name": "mesa-for-android-container_27.0.0-devel-20261025_ubuntu_resolute_arm64.tar.gz",
+      "size": 12674045,
+      "sha256": "51aa11a8e7bc8c98bc9e852b260ee2dac99392b4ee8658182e4837c309818faf",
+      "url": "https://github.com/lfdevs/mesa-for-android-container/releases/download/mesa-27.0.0-devel-20261025/mesa-for-android-container_27.0.0-devel-20261025_ubuntu_resolute_arm64.tar.gz",
+      "publication": "既有上游资产，保留专用仓库地址；本次不复制到组件仓库。"
+    }
+  ]
+}

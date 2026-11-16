@@ -1,0 +1,8 @@
+{
+  "status": "ASSET_VERIFIED_NATIVE_INTEGRATION_PENDING",
+  "actual_bundle_tests": 12,
+  "reproducibility": "MATCH",
+  "device_download_sha256": "MATCH",
+  "runtime_scope": "完整 Native 50 GUI 及其独立应用组合仍待验证。",
+  "source_commit": "52ccd54399a907284b95d44dae59d8f2088d951c"
+}

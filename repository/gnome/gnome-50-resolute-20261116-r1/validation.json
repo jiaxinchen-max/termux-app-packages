@@ -1,0 +1,45 @@
+{
+  "status": "COMPONENTS_VERIFIED_INTEGRATION_PENDING",
+  "app_commit": "52ccd54399a907284b95d44dae59d8f2088d951c",
+  "build": {
+    "core": "原 Linux 编译链；Mutter 12 / Shell 9 项 ELF 检查通过，新 ABI GIR 在 Android 生成",
+    "gio": "Resolute glibc 工具链；ldd、模块查询与 gio mount -l 已验证",
+    "glycin": "真实 PNG 解码、无效图片拒绝和隔离容器安装验证通过"
+  },
+  "device": {
+    "scope": "模拟器隔离 ubuntu-gnome-resolute-probe 与私有库覆盖，不是新 APK 全新安装",
+    "passed": [
+      "PRoot 普通用户 GNOME 50 桌面、Dock、Home、四扩展、终端输入、Nautilus",
+      "Mutter 50.1-4 无诊断 8 次 DING 重启无崩溃",
+      "停止后 9 个所属进程退出、无关宿主进程保留",
+      "保存后 force-stop 冷启动不重写静态配置；缺少保存结果直接退出"
+    ]
+  },
+  "automated": {
+    "java": {
+      "tests": 801,
+      "failures": 0,
+      "errors": 0
+    },
+    "save": 5,
+    "gnome_session": 15,
+    "gnome_xfce_process": 31,
+    "managed_lifecycle": 17,
+    "hyprland_session": 13,
+    "hyprland_install": 6,
+    "ubuntu_gnome": 16,
+    "plasma_install": 11,
+    "gio": 11,
+    "glycin": 5
+  },
+  "pending": [
+    "Native GNOME 50 完整 GUI 与独立应用组合",
+    "四类 PRoot 桌面全新安装回归",
+    "真实鼠标交互、Discover 授权、USB 和高通 GPU",
+    "旧 test-desktop-scripts.sh 夹具仍依赖废弃接口，未通过",
+    "仓库缺少 Harness strict gate 与 OpenSpec CLI"
+  ],
+  "apk_published": false,
+  "product_consistency": "Pending",
+  "archive": false
+}

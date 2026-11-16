@@ -1,0 +1,54 @@
+{
+  "app_repository": "https://github.com/jiaxinchen-max/termux-app",
+  "app_commit": "52ccd54399a907284b95d44dae59d8f2088d951c",
+  "build_recipe": "termux-ui/scripts/native-ubuntu/build-profile.py",
+  "profile_inputs": {
+    "distribution": "ubuntu:resolute",
+    "patches": {
+      "share/gnome-shell/extensions/ding@rastersoft.com/app/createThumbnail.js": {
+        "after": "91f614d93c78b47364c5ba143986b729846474493c9ac48029a92670d66f4608",
+        "before": "f1981b48023c43dce9ff85262c0998360af1a22eb20ef501721a1c2a17aa8337",
+        "reason": "Termux executable paths and session-owned process cleanup"
+      },
+      "share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js": {
+        "after": "691c8361fe84af6eff3b63d8a8df40ee3d55ffc5e0153a910a64c9e903f3a3bb",
+        "before": "684f61a5d62ba33dc2f3b1d8ba2d91f4461fdb3e8b2505f0ff7fa2c9d08ec6ea",
+        "reason": "Termux executable paths and session-owned process cleanup"
+      },
+      "share/gnome-shell/extensions/ding@rastersoft.com/extension.js": {
+        "after": "5a43420c1c5976a2322f2954f75f70d1069b5b139c12ea6ea3634fbcd09cd2d2",
+        "before": "e41eb8152982a10384bd2c5c42bc10d51000f35080ee4c934e38c9ac0ef2f0ef",
+        "reason": "Termux executable paths and session-owned process cleanup"
+      }
+    },
+    "profile": "native-ubuntu-gnome-50-r1",
+    "shell_major": 50,
+    "sources": {
+      "extensions": {
+        "sha256": "f3e290d10e8ae0d6af6deb3c16e11f063f556fecf1b37bbab62fe8799c21be0e",
+        "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/gnome-shell-ubuntu-extensions/gnome-shell-ubuntu-extensions_50.26.04.8ubuntu_all.deb"
+      },
+      "gtk-theme": {
+        "sha256": "e66576554ab66d6c6bcd3a86ce1ab9347c861907f81fd89df927bd1c326a7225",
+        "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/y/yaru-theme/yaru-theme-gtk_26.04.5.1ubuntu_all.deb"
+      },
+      "icons": {
+        "sha256": "d0269daa895d85a72948995497a0848ab3bd6138df59b52c21a814ccf4c7b0a6",
+        "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/y/yaru-theme/yaru-theme-icon_26.04.5.1ubuntu_all.deb"
+      },
+      "shell-theme": {
+        "sha256": "55131b0a1fd8408cbd6bf24fc27bce8e33071cc4894c215b87e5c3f16c06f4b8",
+        "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/y/yaru-theme/yaru-theme-gnome-shell_26.04.5.1ubuntu_all.deb"
+      },
+      "wallpaper": {
+        "sha256": "d7f7acea3bb3dcd547a4be8aa5515b63c9e2a66e110d7a52ea98323f9c14b68e",
+        "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_26.04.2_all.deb"
+      }
+    }
+  },
+  "reproducibility": {
+    "first_sha256": "5d043a773b503c472743c1902d8347ea8ba6c8f7f88c79868e5f661b26288e0e",
+    "second_sha256": "5d043a773b503c472743c1902d8347ea8ba6c8f7f88c79868e5f661b26288e0e",
+    "status": "MATCH"
+  }
+}
