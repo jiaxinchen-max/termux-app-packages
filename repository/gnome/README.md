@@ -10,3 +10,5 @@
 两个公开集成验证版包含精确 URL、大小、SHA256、源码配方、来源锁和校验清单。第三方 Mesa/Turnip 继续使用 lfdevs 专用上游地址。旧 GNOME 48 资产和索引保留；这些桌面安装组件不加入 Wine runtime catalog。
 
 完整 Native GUI、四类 PRoot 全新安装、Discover 授权、真实 USB／高通 GPU 仍待验证。旧综合桌面脚本夹具未通过；Harness strict gate 缺失。发布组件不等于完成 App 整体验收或归档；未发布新 APK。具体证据和限制见各版本 `validation.json` 及发布回读记录。
+
+公开发布与逐资产回读记录：[publication-20261116.json](publication-20261116.json)。22 个组件资产与 1 个上游 Mesa 资产均从原始 URL 验证通过。
