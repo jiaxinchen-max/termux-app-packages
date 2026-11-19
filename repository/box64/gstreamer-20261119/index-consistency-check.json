@@ -1,0 +1,38 @@
+{
+  "indexSha256": "49a8aaffa660e7be709c8bc87491bf5004cf87d2b7d94b5cb1b06c74c0877d91",
+  "packageCount": 47,
+  "changes": {
+    "glibc_box64_0.2.8": [
+      "summary",
+      "size",
+      "sha256"
+    ],
+    "glibc_box64_0.3.8": [
+      "summary",
+      "size",
+      "sha256"
+    ],
+    "glibc_box64_0.4.4": [
+      "summary",
+      "size",
+      "sha256"
+    ],
+    "rootfs_box64_0.2.8": [
+      "summary",
+      "size",
+      "sha256"
+    ],
+    "rootfs_box64_0.3.8": [
+      "summary",
+      "size",
+      "sha256"
+    ],
+    "rootfs_box64_0.4.4": [
+      "summary",
+      "size",
+      "sha256"
+    ]
+  },
+  "allThreeIndexesIdentical": true,
+  "allUrlsAndVersionsAndDefaultsPreserved": true
+}

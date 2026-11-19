@@ -5,6 +5,7 @@ This repository was renamed from `termux-box-packages`; existing releases and as
 
 - `catalog-v1.json`: current component catalog, synchronized with the App's bundled index.
 - `repository/index-v1.json`: published catalog with explicit download URLs, sizes, and SHA-256 values.
+- [`repository/box64/gstreamer-20261119/`](repository/box64/gstreamer-20261119/README.md): source locks and verification records for the GStreamer GLib dependency backport to Native/PRoot Box64 0.2.8, 0.3.8 and 0.4.4, using existing release tags and filenames.
 - [`repository/hyprland/`](repository/hyprland/README.md): independent Hyprland compositor/theme assets, verified on-demand delivery, source locks and candidate validation. r8 themes reuse the unchanged r7 native runtime.
 - [`repository/android-api/`](repository/android-api/README.md): APK-matched API companion CLI/deb assets for verified on-demand initialization; Android API host code stays in the APK.
 - [`repository/gnome/`](repository/gnome/README.md): GNOME 50 / Ubuntu Resolute core, glibc adapters, and Native Ubuntu appearance integration releases with pinned sources and validation scope.
